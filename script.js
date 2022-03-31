@@ -11,9 +11,9 @@ function generatePassword() {
 
     var special = confirm("Include special characters?");
 
-    if (passwordLength)
+    // if (passwordLength)
     
-    else if (lowercase === true) {
+    if (lowercase === true) {
       function generateLower() {
         const lowercaseAlphabet = "abcdefghijklmnopqrstuvwxyz"
         return lowercaseAlphabet[Math.floor(Math.random() * lowercaseAlphabet.length)]
