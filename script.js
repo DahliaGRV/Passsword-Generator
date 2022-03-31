@@ -1,7 +1,7 @@
 
 function generatePassword() {
-  
-    var passwordLength = prompt("Please chose the character length for your password (between 8 and 128)") 
+
+    var passwordLength = prompt("Please choose the character length for your password (between 8 and 128)") 
 
     var lowercase = confirm("Include lowercase letters?");
 
@@ -11,7 +11,9 @@ function generatePassword() {
 
     var special = confirm("Include special characters?");
 
-    if (lowercase === true) {
+    if (passwordLength)
+    
+    else if (lowercase === true) {
       function generateLower() {
         const lowercaseAlphabet = "abcdefghijklmnopqrstuvwxyz"
         return lowercaseAlphabet[Math.floor(Math.random() * lowercaseAlphabet.length)]
