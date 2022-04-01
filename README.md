@@ -12,8 +12,8 @@ https://github.com/DahliaGRV/Passsword-Generator
 
 https://dahliagrv.github.io/Passsword-Generator/
 
-## Screenshots of Password Generator:
-
+## Screenshot of Password Generator:
+![image](https://user-images.githubusercontent.com/98775943/161189251-6c82f26e-2513-4422-8859-febc7c2823c9.png)
 
 
 
